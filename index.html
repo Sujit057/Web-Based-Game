@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white flex items-center justify-center min-h-screen font-sans">
+
+    <main class="text-center bg-gray-800 p-8 rounded-2xl shadow-2xl">
+        <h1 class="text-5xl font-bold font-poppins mb-2 text-cyan-400">Tic Tac Toe</h1>
+        <h2 class="game--status text-2xl mb-8 text-gray-400"></h2>
+        <div class="game--container grid grid-cols-3 gap-4 mb-8">
+            <div data-cell-index="0" class="cell w-24 h-24 bg-gray-900 rounded-lg flex items-center justify-center text-5xl font-bold cursor-pointer transition duration-300 ease-in-out hover:bg-gray-700"></div>
+            <div data-cell-index="1" class="cell w-24 h-24 bg-gray-900 rounded-lg flex items-center justify-center text-5xl font-bold cursor-pointer transition duration-300 ease-in-out hover:bg-gray-700"></div>
+            <div data-cell-index="2" class="cell w-24 h-24 bg-gray-900 rounded-lg flex items-center justify-center text-5xl font-bold cursor-pointer transition duration-300 ease-in-out hover:bg-gray-700"></div>
+            <div data-cell-index="3" class="cell w-24 h-24 bg-gray-900 rounded-lg flex items-center justify-center text-5xl font-bold cursor-pointer transition duration-300 ease-in-out hover:bg-gray-700"></div>
+            <div data-cell-index="4" class="cell w-24 h-24 bg-gray-900 rounded-lg flex items-center justify-center text-5xl font-bold cursor-pointer transition duration-300 ease-in-out hover:bg-gray-700"></div>
+            <div data-cell-index="5" class="cell w-24 h-24 bg-gray-900 rounded-lg flex items-center justify-center text-5xl font-bold cursor-pointer transition duration-300 ease-in-out hover:bg-gray-700"></div>
+            <div data-cell-index="6" class="cell w-24 h-24 bg-gray-900 rounded-lg flex items-center justify-center text-5xl font-bold cursor-pointer transition duration-300 ease-in-out hover:bg-gray-700"></div>
+            <div data-cell-index="7" class="cell w-24 h-24 bg-gray-900 rounded-lg flex items-center justify-center text-5xl font-bold cursor-pointer transition duration-300 ease-in-out hover:bg-gray-700"></div>
+            <div data-cell-index="8" class="cell w-24 h-24 bg-gray-900 rounded-lg flex items-center justify-center text-5xl font-bold cursor-pointer transition duration-300 ease-in-out hover:bg-gray-700"></div>
+        </div>
+        <button class="game--restart bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-8 rounded-lg text-xl transition duration-300 ease-in-out transform hover:scale-105">Restart Game</button>
+    </main>
+
+    <script src="script.js"></script>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
